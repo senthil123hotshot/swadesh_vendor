@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    title getswades
+      body(background='11.jpg')
+    marquee welcome to the get swadesh.com
+    form(action='/entry', method='post')
+      | BILL_ID:
+      input(type='text', name='n1')
+      br
+      |       NAME:
+      input(type='text', name='n2')
+      br
+      |       AMOUT:
+      input(type='number', name='n3')
+      br
+      input(type='submit', value='generate link')
