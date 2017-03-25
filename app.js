@@ -39,7 +39,7 @@ connection.query('insert into vendor set ?',x,function(err,data){
               if(err){
                 res.send(err);
               }else{
-                res.send('data added');
+                res.send('Bill  added');
               }
               
 });
